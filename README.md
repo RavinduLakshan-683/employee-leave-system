@@ -34,3 +34,11 @@ Automatically calculates and updates each employee's remaining leave allowances 
 
 5. Request History & Status Overview
 Provides a personal dashboard for employees to view their history of past requests along with their real-time statuses (Pending, Approved, or Rejected).
+## Bussiness Benifits
+Time Efficiency: Reduces administrative back-and-forth by replacing manual emails or paper forms with an instant, centralized workflow.
+
+Transparency & Accuracy: Provides a single source of truth for leave balances and statuses, reducing human error and misunderstandings between staff and management.
+
+Improved Planning: Helps managers maintain proper team coverage by easily viewing upcoming staff absences before approving new requests.
+
+Audit Trail: Keeps a digital record of all approved and rejected requests for compliance and simple HR record-keeping.
