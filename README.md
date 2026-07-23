@@ -11,3 +11,11 @@ To create a system that allows employees to request leave and managers to approv
 - Employees
 - Managers
 - HR administrators
+## project Scope
+The Employee Leave Management System is a lightweight web/desktop application designed to streamline and automate the process of managing employee leave requests. The scope of this project includes:
+
+User Roles: Distinct functionality for regular Employees and Managers/Administrators.
+
+Core Functionality: Digital leave application, approval/rejection workflows, and automated balance tracking.
+
+Out of Scope: Advanced features like complex payroll integration, multi-level department routing, dynamic holiday calendars across multiple regions, or deep HR analytics (kept out of scope to maintain a focused learning scope for Git and GitHub workflows).
