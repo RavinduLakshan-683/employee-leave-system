@@ -6,3 +6,8 @@ This is a practice project for learning Git, GitHub and project management.
 
 To create a system that allows employees to request leave and managers to approve or reject leave requests.
 
+## Main Users
+
+- Employees
+- Managers
+- HR administrators
