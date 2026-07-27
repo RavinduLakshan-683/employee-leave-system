@@ -1,44 +1,47 @@
-# Employee Leave Management System
+# Employee Leave Request — Functional Requirements
 
-This is a practice project for learning Git, GitHub and project management.
+## Overview
+This document defines the functional requirements for the employee leave
+request feature, based on the user story and acceptance criteria in
+Issue #ISSUE_NUMBER.
 
-## Project Objective
+## Functional Requirements
 
-To create a system that allows employees to request leave and managers to approve or reject leave requests.
+FR1. The system shall allow an employee to select a leave type
+     (e.g. annual, sick, unpaid).
 
-## Main Users
+FR2. The system shall allow an employee to enter a start date and an
+     end date for the leave request.
 
-- Employees
-- Managers
-- HR administrators
-## project Scope
-The Employee Leave Management System is a lightweight web/desktop application designed to streamline and automate the process of managing employee leave requests. The scope of this project includes:
+FR3. The system shall allow an employee to enter a reason for the leave.
 
-User Roles: Distinct functionality for regular Employees and Managers/Administrators.
+FR4. The system shall calculate and display the number of leave days
+     requested, based on the selected start and end dates.
 
-Core Functionality: Digital leave application, approval/rejection workflows, and automated balance tracking.
+FR5. The system shall route the leave request to the employee's
+     assigned manager.
 
-Out of Scope: Advanced features like complex payroll integration, multi-level department routing, dynamic holiday calendars across multiple regions, or deep HR analytics (kept out of scope to maintain a focused learning scope for Git and GitHub workflows).
-## System Features
-1. User Authentication & Role Management
-Secure login and registration system that assigns roles (Employee or Manager) upon account creation, controlling access to specific features and dashboards.
+FR6. The system shall send a confirmation to the employee once the
+     request has been submitted successfully.
 
-2. Leave Request Submission
-Employees can fill out a simple form to submit a new leave request by choosing a leave type (e.g., Annual, Sick, Personal), selecting start and end dates, and providing a reason.
+## Acceptance Criteria
 
-3. Manager Approval Workflow
-A dedicated Manager Dashboard displays pending leave requests, giving managers the ability to approve or reject requests with optional feedback comments in real time.
+- [ ] The employee can select a leave type.
+- [ ] The employee can enter a start date and end date.
+- [ ] The employee can provide a reason.
+- [ ] The system shows the number of leave days requested.
+- [ ] The request is sent to the correct manager.
+- [ ] The employee receives confirmation after submission.
 
-4. Leave Balance Tracking
-Automatically calculates and updates each employee's remaining leave allowances whenever a request is approved, eliminating manual spreadsheet calculations.
+## Dependencies
 
-5. Request History & Status Overview
-Provides a personal dashboard for employees to view their history of past requests along with their real-time statuses (Pending, Approved, or Rejected).
-## Bussiness Benifits
-Time Efficiency: Reduces administrative back-and-forth by replacing manual emails or paper forms with an instant, centralized workflow.
+- Employee and manager records must already exist in the system.
 
-Transparency & Accuracy: Provides a single source of truth for leave balances and statuses, reducing human error and misunderstandings between staff and management.
+## Priority
 
-Improved Planning: Helps managers maintain proper team coverage by easily viewing upcoming staff absences before approving new requests.
+High
 
-Audit Trail: Keeps a digital record of all approved and rejected requests for compliance and simple HR record-keeping.
+## Open Questions
+
+- Can employees submit half-day leave requests?
+- Can employees attach supporting documents?
