@@ -6,7 +6,7 @@ The organisation must be able to manage employee leave requests digitally.
 
 ## BR-002
 
-Managers must be able to approve or reject employee leave requests.
+Managers must be able to approve or reject employee leave requests.thisisthechange
 
 ## BR-003
 
